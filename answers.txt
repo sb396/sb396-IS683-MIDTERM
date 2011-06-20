@@ -1,0 +1,47 @@
+1.	What does the acronym KISS mean and how does following this make you a better computer programmer?
+
+Keep It Simple Stupid- Makes all your code reusable and lets other people understand your code.
+2.	What does the acronym DRY mean and why is it an essential principle of being a good computer programmer?
+Dont Repeat Yourself- If any information of the program changes only one change has to be made.
+3.	What is the difference between a database like MongoDB and MySQL?
+MySQL:You need to create tables and retrieve information using sql commands, MongoDB: stores all items in an array as oppose to creating tables and your able to retrieve information with simple programming language using the array.
+4.	If you were asked to write a program that could write at least 50 different HTML tags how would you do it?
+Create a class that generates the tags by passing the specific tag as an argument and have the attributes that store information about the tags in that same class.
+5.	What software design pattern would you be demonstrating in in the above solution?
+
+6.	What version control system(s) have you used?
+GITHUB
+7.	What is GitHub and have you ever used it?
+GITHUB is a version control system and thanks to our wonderful professor we learned to use it in our IS  683 class.
+8.	What is the command to create a GIT repository
+mkdir name of repository
+9.	What is the command to tell GIT to start tracking the file?
+git init name of file, git add README
+  
+10.	What is the command to commit your changes to the GIT log?
+ git commit -m 'first commit'
+11.	What is the command to add a remote repository?
+ git remote add origin git@github.com:gitsb396/My-Project-IS683.git
+12.	What is the command to send your committed changes to the remote repository?
+git push -u origin master
+13.	What is your experience working in a software development team?
+We worked on  a java project in our java course, and we worked on a team in our database course creating a online address book and a online matchmaker database.
+
+14.	How would you create a new file and directory in linux?
+vi filename.
+15.	How would you set the permissions on a file / folder, so that another user can write to it.   i.e. so you the webserver can upload a file to the directory.
+# chmod r=rwx filename
+
+16.	What program do you use to write your PHP code?
+PUTTY, Eclipse,
+17.	What is a constructor in PHP and how/why would you use it?
+A constructor is a method that is called every time an object is created . You would use it so that every time a object is created it will call that method and give it what ever attributes or functions you want it to have.
+
+18.	What is the difference between a class and an object?
+A class is static and is the blueprint of a object that gets created from that class, So a object gets created and then destroyed 
+19.	Why is it important to comment / document your code?
+So that other people can read your code which allows for code reuse, and mainly that you the programmer understands your code when you look back at the code a few thousand lines later.
+20.	What traits do you think a good computer programmer has?
+Be consistent with formatting your code, Comment your code,Dont assume anything always test your code, and provide useful error messages.
+
+
